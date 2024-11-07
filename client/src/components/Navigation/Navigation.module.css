@@ -1,0 +1,15 @@
+.button {
+  position: absolute;
+  right: 20px;
+  top: 32px;
+  max-width: fit-content;
+  background-color: #b8c3f5;
+  color: #4d4d4d;
+  padding: 0.5625em 0.8215em;
+  border: none;
+  border-radius: 0.2em;
+  cursor: pointer;
+  font-size: 0.7em;
+  transition: background-color 0.3s;
+  box-shadow: 0 0 0 0.125em #ebebeb;
+}

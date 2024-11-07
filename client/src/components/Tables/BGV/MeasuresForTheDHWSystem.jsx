@@ -1,0 +1,31 @@
+import React from "react";
+import Table from "../../Table/Table";
+import { bgvFormulas } from "../../../utils/formulas/BGV";
+
+const MeasuresForTheDHWSystem = ({
+  data,
+  header,
+  heading,
+  tableIndex,
+  moneyData,
+}) => {
+  return (
+    <>
+      <h3 className={""}>{heading}</h3>
+      <Table
+        header={header}
+        rows={data}
+        calculateFormula={bgvFormulas(data, moneyData)}
+        tableSlice={"bgv"}
+        tableIndex={tableIndex}
+        config={{
+          addRowOptions: {
+            position: data.length - 1,
+          },
+        }}
+      />
+    </>
+  );
+};
+
+export { MeasuresForTheDHWSystem };

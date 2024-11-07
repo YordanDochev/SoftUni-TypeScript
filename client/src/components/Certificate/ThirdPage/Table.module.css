@@ -1,0 +1,90 @@
+.tableContainer {
+    border: 7px solid #EB9756;
+    padding: 0.2em;
+    line-height: 1;
+    margin-bottom: 0.3em;
+}
+
+.tableContainer p {
+    outline: 5px solid #EB9756;
+    border-radius: 0.2em;
+    margin-bottom: 0.4em;
+    font-weight: bold;
+    padding: 0.4em;
+    font-size: 1.2em;
+}
+
+.tableContainer p:nth-of-type(1) {
+    font-size: 1em;
+}
+
+.table {
+    margin-top: 1.5em;
+    margin-bottom: 0.4em;
+    font-size: 0.8em;
+}
+
+.table th {
+    font-weight: bold;
+}
+
+.table th,
+.table td {
+  border: 2px solid black;
+  padding: 7px; 
+}
+
+.table th[rowspan],
+.table th[colspan],
+.table td[colspan] {
+  text-align: center; 
+}
+
+.table td {
+    text-align: center;
+}
+
+.choice {
+    display: flex;
+    justify-content: left;
+    margin-left: 6em;
+    align-items: center;
+}
+
+.choice input {
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.fixedWidth {
+    width: 15%;
+}
+
+.green {
+    background-color: #C8F89B;
+}
+
+.yellow {
+    background-color: #FFFFCD;
+}
+
+.suggestions {
+   display: block;
+   text-align: left;
+   margin-top: 1em;
+   font-weight: bold;
+   text-decoration: underline;
+   font-size: 1.2em;
+   margin-bottom: 10em;
+   font-style: italic;
+}
+
+.suggestionsInfo {
+    display: block;
+    line-height: 1;
+    text-align: left;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+}

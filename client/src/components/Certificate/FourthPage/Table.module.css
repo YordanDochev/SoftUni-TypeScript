@@ -1,0 +1,30 @@
+.tableContainer {
+    border: 7px solid #EB9756;
+    padding: 0.2em;
+    line-height: 1;
+    margin-bottom: 1.5em;
+}
+
+.tableContainer p {
+    outline: 5px solid #EB9756;
+    border-radius: 0.2em;
+    margin-bottom: 1em;
+    font-weight: bold;
+    padding: 0.4em;
+    font-size: 1.2em;
+}
+
+.tableContainer p:nth-of-type(1) {
+    font-size: 1em;
+    padding-bottom: 1.5em;
+}
+
+.attachment {
+    display: block;
+    text-align: left;
+    font-size: 1.2em;
+    color: black;
+    padding-left: 1.5em;
+    padding-top: 2em;
+    padding-bottom: 14em;
+}

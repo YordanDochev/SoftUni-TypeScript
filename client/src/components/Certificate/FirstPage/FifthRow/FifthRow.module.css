@@ -1,0 +1,26 @@
+.container {
+  border: 7px solid orange;
+  margin-bottom: 0.5em;
+  line-height: 1;
+  font-size: 0.8em;
+}
+
+.table {
+  background-color: #fde9d9;
+}
+
+.table th,
+.table td {
+  border: 1px solid black;
+  padding: 4px;
+}
+/* TODO: add argument to specify the position: nth-last-of-type(X) */
+.table th[rowspan],
+.table th[colspan],
+.table td[colspan]:nth-last-of-type() {
+  text-align: center;
+}
+
+.table td {
+  text-align: left;
+}

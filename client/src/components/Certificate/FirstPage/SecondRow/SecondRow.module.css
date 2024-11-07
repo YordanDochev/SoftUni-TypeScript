@@ -1,0 +1,25 @@
+.container {
+    font-style: italic;
+    border: 7px solid orange;
+    border-radius: 1em;
+    margin-bottom: 0.5em;
+}
+
+.topSide::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: darkblue;
+}
+
+.topSide p::after {
+    content: "(сграда или част от сграда, наименование, адрес) ";
+    display: block;
+    font-size: 0.7em;
+}
+
+.bottomSide {
+    text-align: left;
+    padding: 0.4em 0;
+}

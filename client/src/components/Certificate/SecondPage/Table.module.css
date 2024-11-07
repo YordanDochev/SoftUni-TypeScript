@@ -1,0 +1,59 @@
+.tableContainer {
+  border: 7px solid #eb9756;
+  padding: 0.2em;
+}
+
+.tableContainer p {
+  outline: 5px solid #eb9756;
+  border-radius: 0.2em;
+  margin-bottom: 0.4em;
+  font-weight: bold;
+  padding: 0.2em;
+  font-size: 0.9em;
+}
+
+.table {
+  margin-bottom: 0.4em;
+  font-size: 0.8em;
+}
+
+.table th {
+  font-weight: bold;
+}
+
+.table th,
+.table td {
+  border: 2px solid black;
+  padding: 2.5px 0;
+}
+
+.table th[rowspan],
+.table th[colspan],
+.table td[colspan] {
+  text-align: center;
+}
+
+.table td {
+  text-align: center;
+}
+
+.narrow td {
+  padding: 1px;
+  text-align: center;
+}
+
+.fixedWidth {
+  width: 15%;
+}
+
+.special {
+  background-color: #ffffcb;
+}
+
+.green {
+  background-color: #c8f89b;
+}
+
+.yellow {
+  background-color: #ffffcd;
+}

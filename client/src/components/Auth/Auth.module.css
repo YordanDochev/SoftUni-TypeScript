@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Days+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+
+/* -------------------------- */
+
+.container {
+  display: flex;
+  gap: 6em;
+  justify-content: center;
+  margin-top: 46px;
+}
+
+.stripes {
+  position: absolute;
+  display: flex;
+  gap: 5em;
+  top: -90px;
+  left: 0;
+}
+
+.stripes div {
+  width: 43px;
+  height: 332px;
+  border-radius: 15px;
+  rotate: 42.61deg;
+  opacity: 30%;
+}
+
+.stripes .orange {
+  background-color: #7fa585;
+}
+
+.stripes .grey {
+  background-color: #24444d;
+}
+
+.stripes .pink {
+  background-color: #f7420c;
+}
+
+.leftCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.content {
+  display: flex;
+  font-family: "Days One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 25.46px;
+  height: 420px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 53px;
+  height: 53px;
+  border-radius: 50%;
+  font-family: "Krona One", sans-serif;
+  font-size: 10px;
+  color: white;
+  background-color: black;
+  margin-top: 100px;
+  margin-bottom: 120px;
+}
+
+.buttonWrapper {
+  padding: 10px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.active {
+  color: white;
+  background-color: #24444d;
+}
+
+.headerButtons .buttonWrapper:first-of-type {
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-right: 2px solid black;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.headerButtons .buttonWrapper:first-of-type:before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: -8.5px;
+  width: 15px;
+  height: 10px;
+  background-color: black;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.headerButtons .buttonWrapper:last-of-type {
+  border-bottom: 2px solid black;
+}
+
+.headerButtons .buttonWrapper:last-of-type:after {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: -6px;
+  right: -8.5px;
+  width: 15px;
+  height: 10px;
+  background-color: black;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  rotate: 90deg;
+}
+
+.headerButtons {
+  display: flex;
+}
+
+.navButton {
+  display: block;
+  width: 184px;
+  height: 53px;
+  padding: 15px 30px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+
+.form {
+  margin-bottom: 10px;
+  height: 150px;
+  position: relative;
+}
+
+.field {
+  position: relative;
+  margin-top: 1em;
+}
+
+.form input {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px 0;
+  padding-left: 80px;
+}
+
+.form i {
+  margin-right: 5px;
+  color: #f7420c;
+}
+
+.form label {
+  font-size: 10px;
+  line-height: 12.5px;
+  font-family: "Krona One", sans-serif;
+  position: absolute;
+  z-index: 1;
+  top: 12px;
+  left: 20px;
+}
+
+.submitBtn {
+  display: block;
+  width: 184px;
+  height: 53px;
+  padding: 15px 30px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: #24444d;
+  color: white;
+}
+
+.rightCol {
+  width: 628px;
+  height: 888px;
+  background-image: url("/homePageImg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}

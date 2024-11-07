@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+    width: 20%;
+    height: 270mm;
+    background-color: #21477B;
+    border: 8px solid #EB9756;
+    border-radius: 1em;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.circle {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 40px;
+    height: 40px;
+    background-color: #21477B;
+    border: 7px solid #EB9756;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.title {
+    color: white;
+    font-size: 7em;
+    font-family: Arial, sans-serif;
+    writing-mode: vertical-rl;
+    rotate: 180deg;
+    letter-spacing: 0.1em;
+}

@@ -1,0 +1,31 @@
+.content {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.content h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-bottom: 0em;
+  margin-bottom: 2em;
+}
+
+.navButtons ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  padding: 0;
+}
+
+.navButtons a {
+  font-size: 0.75em;
+  font-weight: bold;
+  text-decoration: none;
+  color: #4d4d4d;
+  background-color: #b8c3f5;
+  padding: 0.5625em 0.8215em;
+  margin: 1em;
+  border-radius: 0.2em;
+  box-shadow: 0 0 0 0.125em #ebebeb;
+}

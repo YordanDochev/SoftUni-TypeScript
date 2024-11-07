@@ -1,0 +1,73 @@
+/* FirstRow.module.css */
+
+.container {
+    display: flex;
+    gap: 0.2em;
+    font-size: 0.7em;
+    line-height: 1;
+    margin-bottom: 0.5em;
+}
+
+.leftContainer,
+.middleContainer,
+.rightContainer {
+    flex: 1;
+    display: flex;
+    gap: 0.5em;
+    border-radius: 1em;
+}
+
+.leftContainer {
+    flex-direction: column;
+}
+
+/* Add specific styles for inner elements */
+.row {
+    display: flex;
+    gap: 1em;
+    background-color: #FEE2B8;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.row label {
+    flex-shrink: 0;
+}
+
+.middleContainer {
+    justify-content: space-between;
+    background-color: #FEE2B8;
+    padding: 1em;
+}
+
+.middleContainer div:nth-of-type(1) {
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.options input {
+    width: auto;
+}
+
+.rightContainer {
+    background-color: #FEE2B8;
+    padding: 1em;
+}
+
+.rightContainer div:nth-of-type(2) {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    padding: 1em;
+}
+
+.rightContainer div {
+    background-color: white;
+}

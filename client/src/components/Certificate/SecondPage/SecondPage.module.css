@@ -1,0 +1,9 @@
+.container {
+    display: flex;
+    gap: 1em;
+    width: 100%;
+}
+
+.rightCol {
+    width: 100%;
+}
